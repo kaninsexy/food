@@ -65,11 +65,13 @@ img {
   background-position: bottom right;
   padding: 50px;
   display: grid;
-  align-items: start;
-  justify-content: center;
+  /* justify-content: start;
+  align-items: unset; */
 }
+
 .hero > * {
   padding: 5px;
+  background-color: #ffc600;
 }
 .top {
   display: grid;
